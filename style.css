@@ -17,6 +17,7 @@ p{
 
 .first-site{
    color: rgb(14, 53, 226);
+   font-family: Consolas;  
 }
 .half-width{
     width: 40%;
@@ -24,8 +25,14 @@ p{
     margin-left: 5%;
     padding-left: 2%;
 }
+
+section{
+    height: 550px;
+    padding-bottom: 150px;
+}
+
 .half-width img{
-    width:90%;
+    width:100%;
 }
 .header-bg{
     background-image: url("header-bg.png");
@@ -37,6 +44,9 @@ p{
     background-repeat: no-repeat;
 	
 }
+.real-hero{
+	color:purple;
+}
 .latest-work-bg{
 	background-image: url("latest-work-bg.png");
     background-repeat: no-repeat;
@@ -46,13 +56,8 @@ p{
 .footer-bg{
 	background-image: url("footer-bg.png");
     background-repeat: no-repeat;
-	
-	
 }
-section{
-    height: 500px;
-    padding-bottom: 150px;
-}
+
 .link-button{
     text-decoration: none;
     background-color: hsl(315, 100%, 60%);
@@ -95,11 +100,9 @@ section{
 }
 .client{
 	font-size: 20px;
-	color: dimgrey;
+	color:dimgrey;
 }
-.para{
-	color:#0d0d0d;
-}
+
 .mydiv{
 	text-align:center;
 	color:white;
@@ -110,8 +113,17 @@ section{
 	margin:100px 300px;
 	border-radius: 15px;
 }
+.mydiv:hover{
+	background-color:green;
+	width:800px;
+    height:180px; 
+}
+
+
+
 .footer{
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 80px;
+	margin-bottom:40px;
 	color: dimgrey;
 }
